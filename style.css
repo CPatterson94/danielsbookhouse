@@ -1,21 +1,69 @@
 html {
-  background-color: white;
+  background-color: maroon;
   min-height: 100%;
 }
 
 body {
-  background-color: whitesmoke;
+  background-color: maroon;
+  margin: auto;
 }
+
 nav {
-  /* background-color: grey; */
+  background: url(assets/block07bg.jpg);
+  box-sizing: content-box;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 765px;
+  height: 99px;
+  box-shadow: 50px;
   border-style: solid;
   border-color: black;
-  box-sizing: border-box;
-  box-shadow: 20px;
-  width: 100%;
-  height: 50px;
-  font-size: 30px;
-  font-weight: bold;
+  border-top: 30px;
+  border-left: 0;
+  border-radius: 5px;
+  border-color: black;
+  font-size: 25px;
+  font-weight: bolder;
   text-align: center;
+  z-index: 99;
+}
+
+Header {
+  width: 600px;
+  height: 45px;
+  margin-top: 5px;
+  margin: auto;
+  border-style: solid;
+  border-top: 0;
+  border-color: black;
+  font-size: 40px;
+  font-style: italic;
+  font-weight: bold;
   color: black;
+  text-align: center;
+}
+footer {
+  background-color: black;
+  box-sizing: border-box;
+  flex-direction: row;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 125px;
+}
+
+#pbs {
+  margin-top: 15px;
+  box-sizing: border-box;
+  display: flex;
+  justify-items: left;
+  margin-left: 20px;
+}
+#feedback {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: right;
+  margin-right: 20px;
+  margin-bottom: 50px;
 }
