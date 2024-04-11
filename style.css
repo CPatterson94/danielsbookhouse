@@ -1,0 +1,21 @@
+html {
+  background-color: white;
+  min-height: 100%;
+}
+
+body {
+  background-color: whitesmoke;
+}
+nav {
+  /* background-color: grey; */
+  border-style: solid;
+  border-color: black;
+  box-sizing: border-box;
+  box-shadow: 20px;
+  width: 100%;
+  height: 50px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+}
