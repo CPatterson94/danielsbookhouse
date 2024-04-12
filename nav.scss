@@ -1,0 +1,38 @@
+nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: url(assets/block07bg.jpg);
+  box-sizing: content-box;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 765px;
+  height: 99px;
+  border-top: 30px;
+  border-radius: 5px;
+  font-size: 25px;
+  font-weight: bolder;
+  text-align: center;
+  z-index: 99;
+}
+
+li {
+  float: center;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #444;
+}
+a {
+  color: white;
+}

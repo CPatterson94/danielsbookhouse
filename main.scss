@@ -1,0 +1,144 @@
+$maincolor: gray;
+html {
+  background-color: $maincolor;
+  min-height: 100%;
+}
+
+body {
+  background-color: gray;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+.books {
+  background-image: url("assets/block07bg2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  border: 5px outset black;
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding: 50px;
+}
+.about {
+  background-image: url("assets/block07bg3.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: fixed;
+  border: 5px outset black;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding: 748px 802px;
+}
+
+#img1 {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  border: outset 20px black;
+}
+#book1 {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 50px;
+  border-style: solid;
+  border: 20px;
+  border-color: black;
+  font-size: 30px;
+}
+#img2 {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  border: outset 20px black;
+}
+#book2 {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 50px;
+  border-style: solid;
+  border: 20px;
+  border-color: black;
+  font-size: 30px;
+}
+#img3 {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  border: outset 20px black;
+}
+#book3 {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 50px;
+  border-style: solid;
+  border: 20px;
+  border-color: black;
+  font-size: 30px;
+}
+#img4 {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  border: outset 20px black;
+}
+#book4 {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 50px;
+  border-style: solid;
+  border: 20px;
+  border-color: black;
+  font-size: 30px;
+}
+#img5 {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  border: outset 20px black;
+}
+#book5 {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 50px;
+  border-style: solid;
+  border: 20px;
+  border-color: black;
+  font-size: 30px;
+}
+#img6 {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  border: outset 20px black;
+}
+#book6 {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 50px;
+  border-style: solid;
+  border: 20px;
+  border-color: black;
+  font-size: 30px;
+}
